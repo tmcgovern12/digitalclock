@@ -29,12 +29,38 @@ main {
 .digitalclock {
     display: flex;
     flex-direction: row;
-    gap: .25em;
+    gap: .02em;
     background-color: rgb(1, 27, 1);
     font-size: 200%; 
     color: #f6f2f2;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
+@media only screen and (max-width: 768px) {
+    
+    header {
+        font-size: 1.5rem; 
+    }
 
+    .digitalclock {
+        font-size: 1.5em; 
+        flex-direction: column; 
+        align-items: center; 
+    }
 
+    
+    
+#hour::after, #minute::after {
+        content: '';
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid white;
+        margin-top: 0.1em; 
+    }
+
+    
+    #colon1, #colon2 {
+        visibility: hidden;
+    }
+}
