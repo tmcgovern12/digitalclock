@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    
+    padding: 20px;
+    border-bottom: 2px solid #f6f2f2; 
+  }
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(6, 37, 6);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    align-items: center;
+    
+}
+
+.digitalclock {
+    display: flex;
+    flex-direction: row;
+    gap: .25em;
+    background-color: rgb(1, 27, 1);
+    font-size: 200%; 
+    color: #f6f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.colon1 {
+    color: #f6f2f2;
+}
+
+.colon2 {
+    color: #f6f2f2;
+}
+
