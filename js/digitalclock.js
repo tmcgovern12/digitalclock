@@ -39,10 +39,10 @@ function currentTime() {
 
     if(evenSeconds ===0) {
         document.getElementById('colon1').style.color ="red";
-        document.getElementById('colon2').style.color ="red";
+        document.getElementById('colon2').style.color ="purple";
     } else {
-        document.getElementById('colon1').style.color ="black"; // Set black if seconds are odd
-        document.getElementById('colon2').style.color ="black"; // Set black if seconds are odd
+        document.getElementById('colon1').style.color ="blue"; // Set black if seconds are odd
+        document.getElementById('colon2').style.color ="pink"; // Set black if seconds are odd
     }
 }
 
